@@ -11,7 +11,7 @@ def create_app(test_config=None):
     # Factory que cria a aplicação Flask
     app = Flask(__name__)
     _set_session_default_data(app)
-    _register_blueprints(app, 'configs.toml')
+    _register_blueprints(app, 'pyconfig.toml')
     _register_error_handlers(app)
     CORS(app)
     
