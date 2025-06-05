@@ -1,0 +1,22 @@
+[blueprints]
+# Caminho de importação do arquivo que contém o objeto APIRouter que define o roteador
+item = "views.item.rotas"
+error = "views.error.rotas"
+
+[api]
+url = "https://infrajp.jaupesca.com.br"
+
+[htmls]
+    [[htmls.item_bp]]
+        html_file_path = "item.html"
+        js_file_path = ["item.js"]
+        css_file_path = ["item.css"]
+    [[htmls.item_bp]]
+        html_file_path = "item_teste.html"
+        js_file_path = ["item_teste.js"]
+        css_file_path = ["item_teste.css"]
+        
+    [[htmls.error_bp]]
+        html_file_path = "error.html"
+        js_file_path = ["error.js"]
+        css_file_path = ["error.css"]
